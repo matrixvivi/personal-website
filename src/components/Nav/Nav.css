@@ -1,0 +1,63 @@
+header {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    padding: 0;
+    z-index: 2;
+}
+
+header .headline {
+    text-transform: uppercase;
+    padding: 0;
+    height: 51px; 
+    position: relative;
+}
+.headline h1 {
+    font-size: 53px;
+    font-family: 'Resistance';
+}
+
+.headline:hover {
+    background-color: #181818;
+    color: #f6f6f6;
+}
+
+header .navbar {
+    font-size: 0.7em;
+    line-height: 1em;
+    text-align: center;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    width: 100%;
+    position: absolute;
+    text-transform: uppercase;
+    left: 0;
+    top: 53px;
+    height: 23px;
+    padding: 3px 0 2px 0;
+    color: #181818;
+    border-top: 1px solid #181818;
+    border-bottom: 1px solid #181818;
+    margin-top: -4px;
+}
+
+li {
+    display: inline;
+    float: left;
+    width: 20%;
+    margin-top: 3px;
+}
+
+.link {
+    color: #181818;
+}
+
+.marquee-ctn {
+    height: 56px;
+    margin-top: -2px
+}
+
+.marquee-ctn h1{
+    padding-left: 0.75em;
+}
