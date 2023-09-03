@@ -2,14 +2,20 @@ import React from 'react'
 import './Nav.css'
 import { Outlet, Link } from 'react-router-dom';
 import Marquee from "react-fast-marquee";
+import Img from '../../../public/icon.svg'
 
 const Nav = () => {
     return (
         <header>
             <div className="headline">
                 <Marquee pauseOnHover='true' speed={50} className='marquee-ctn'>
+                    <img src={Img} className='img-style' />
+                    <h1>CHRIS KANG's WEBSITE</h1>
+                    <img src={Img} className='img-style' />
                     <h1>CHRIS KANG's PORTFOLIO</h1>
-                    <h1>CHRIS KANG's PORTFOLIO</h1>
+                    <img src={Img} className='img-style' />
+                    <h1>CHRIS KANG's WEBSITE</h1>
+                    <img src={Img} className='img-style' />
                     <h1>CHRIS KANG's PORTFOLIO</h1>
                 </Marquee>
             </div>
